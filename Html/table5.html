@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML</title>
+    <style>
+        .table,th
+        {
+            color: orange;
+            border: 2px solid gray;
+            text-align: center;
+            border-collapse:collapse;
+        }
+        .table,td
+        {
+            color:green;
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        
+    </style>
+</head>
+<body>
+
+<html>
+    <body>
+        <table cellpadding="10px">
+            <tr>
+               <th colspan="6" class="Table">Complex Table</th>
+            </tr>
+
+            <tr>
+                <th>Header Column 1</th>
+                <th>Header Column 2</th>
+                <th>Header Column 3</th>
+                <th>Header Column 4</th>
+            </tr>
+
+           <tr>
+                <td>Row 2- Item 1</td>
+                <td>Row 2- Item 2</td>
+                <th rowspan="2">Row 2- Nested Table 1
+
+                    <table>
+                        <tr>
+                            <td>Row 1 Header</td>
+                            <td>Item</td>
+                        </tr>
+                        <tr>
+                            <td>Row 2 Header</td>
+                            <td>Item</td>
+                        </tr>
+                        <tr>
+                            <td>Row 3 Header</td>
+                            <td>Item</td>
+                        </tr>
+                    </table>
+                </th>
+                <td>Row 2- Item 4<br>
+                    A Second line
+                   </td>
+           </tr>
+
+           
+
+
+           <tr>
+               <th>Nested Table 2
+                <table>
+                    <tr>
+                        <td>Row 1 Header</td>
+                        <td>Item</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2 Header</td>
+                        <td>Item</td>
+                    </tr>
+                </table>
+               </th>
+               <td>ROw 3 - Item2</td>
+               <td rowspan="2">ROw 3 - Item3</td>
+           </tr>
+
+           <tr>
+               <td>ROw 4 - Item1</td>
+               <td>ROw 4 - Item2</td>
+               <td>ROw 4 - Item3</td>
+           </tr>
+
+           <tr>
+               <td colspan="5">Row 5 - Last Row Of Outer Table</td>
+           </tr>
+
+        </table>
+    </body>
+</html>
