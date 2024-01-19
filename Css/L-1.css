@@ -1,0 +1,7 @@
+@import './L-2.CSS';
+
+.hello
+{
+    background-color: hotpink;
+    border-top: 4px groove black;
+}
