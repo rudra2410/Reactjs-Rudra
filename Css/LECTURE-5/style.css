@@ -1,0 +1,146 @@
+/* css width / height */
+
+:root
+{
+    --bg-color:skyblue;
+}
+
+.box{
+    margin: 50px 0 0 50px;
+    width: 500px;
+    max-width: 1000px;
+    max-width: 1000px;
+    height: 250px;
+    background-color:var(--bg-color);
+    border:2px solid black;
+}
+
+/* img{
+    /* width: 100vh; */
+    /* min-width: 850px; */
+    /* min-height: 550px; 
+}  */
+
+/* listing tag and table tag in css */
+
+
+/* listing tag */
+
+
+/*
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+/* ol{
+    /* list-style-type:decimal; */
+    /* list-style-position: inside; */
+    /* list-style-image: url('../image/car.png'); 
+}
+*/
+
+
+
+/* unorder list */
+
+ /* ul{
+     list-style-type: decimal; 
+  } */
+
+
+/* css box-shadow */
+
+/* .shadow{
+    height: 200px;
+    width: 200px;
+    border:2px solid black;
+    margin: 50px;
+    box-shadow: inset -10px -10px 20px gray , 20px 20px 5px red;
+}  */
+
+
+
+/* accent-color*/
+/* 
+input
+{
+    accent-color: green;
+} */
+
+/* 
+     disabled
+     enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+/* 
+::placeholder
+{
+    color:lightcoral;
+    text-align: center;
+} */
+
+/* 
+input:checked
+{
+    color: black;
+} */
+
+/* .text:focus
+{
+    color: green;
+} */
+/* 
+input:required
+{
+    color: red;
+} */
+
+/* input:invalid{
+    border:3px solid red;
+}
+input:valid{
+    border:3px solid green;
+} */
+
+/* ol li::marker{
+    color:blue;
+}
+ul li::marker{
+    color:red;
+} */
+
+/* :read-write{
+    color:green;
+    text-decoration: underline;
+} */
+/* 
+.box:lang(EN){
+    color:purple;
+}  */
+
+/*
+    :read-only
+    :read-write
+    :root
+    :lang()
+
+*/
+/* :root{
+    --color:red;
+    --color:green;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: var(--color);
+} */

@@ -1,0 +1,115 @@
+:root
+{
+
+    --border-radius: 8px;
+}
+body{
+    margin: 0;
+}
+
+/* Css Pseudo Class */
+
+/* 
+:active             an element being activated by the user (e.g. clicked). Mostly used on links or buttons
+:checked            a checkbox, option or radio input types that are enabled
+:default            the default in a set of choices (like, option in a select or radio buttons)
+:disabled           an element disabled
+:empty              an element with no children
+:enabled            an element that's enabled (opposite to :disabled )
+:first              child the first child of a group of siblings
+:focus              the element with focus
+:hover              an element hovered with the mouse
+:last               child the last child of a group of siblings
+:link               a link that's not been visited
+:not()              any element not matching the selector passed. E.g. :not(span)
+:nth-child()        an element matching the specified position
+:nth-last-child()   an element matching the specific position, starting from the end
+:only-child         an element without any siblings
+:required           a form element with the required attribute set
+:root               represents the html element. It's like targeting html , but it's more specific. Useful in CSS Variables.
+:target             the element matching the current URL fragment (for inner navigation in the page)
+:valid              form elements that validated client-side successfully
+:visited            a link that's been visited
+*/
+
+/* a:active
+{
+    color: green;
+    text-decoration: none;
+} */
+
+/* 
+input[type="radio"]:checked {
+    box-shadow: 0 2px 10px hotpink;
+  } */
+
+/* a:link
+{
+    color: red;
+} */
+
+h1:first-child
+{
+    background-color: skyblue;
+    border-radius: var(--border-radius);
+    /* box-shadow: 2px 2px 15px skyblue; */
+    
+}
+
+h1:first-of-type
+{
+    background-color: rgb(255, 131, 131);
+    border-radius: var(--border-radius) ;
+}
+
+h1:last-child
+{
+    background-color: green;
+    border-radius: var(--border-radius);
+    /* box-shadow: 4px 4px 20px  green; */
+
+}
+
+h1:last-of-type
+{
+    background-color: rgb(255, 0, 0);
+    border-radius: var(--border-radius) ;
+}
+
+h1:nth-child(5)
+{
+    border-radius: var(--border-radius);
+    background-color: yellow;
+}
+
+h1:nth-last-child(5)
+{
+    border-radius: var(--border-radius);
+    background-color: purple;
+}
+
+h1:nth-last-of-type(3)
+{
+    border-radius: var(--border-radius);
+    background-color: rgb(0, 17, 255);
+}
+
+h1:nth-of-type(5)
+
+{
+    border-radius: var(--border-radius);
+    background-color: rgb(0, 255, 17);
+}
+
+
+h1:only-child
+{
+    border-radius: var(--border-radius);
+    background-color: chocolate;
+}
+
+
+
+
+
+

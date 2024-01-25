@@ -1,0 +1,86 @@
+    a:first-child
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+    a:nth-child(4)
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    h1:nth-last-of-type(14)
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+ 
+    h1:nth-last-of-type(11)
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    .section h1:nth-child(2)
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    input:last-of-type
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+    
+    h1:only-of-type
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    .heading:first-child
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    :where(.head)
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    :where(.h1)
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    h1:nth-last-of-type(1)
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    span p:last-of-type
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    
+
+
