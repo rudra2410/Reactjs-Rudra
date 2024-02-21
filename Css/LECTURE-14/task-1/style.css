@@ -1,0 +1,28 @@
+.pagination{
+    display: flex;
+  }
+  .pagination div{
+    height: 50px;
+    width: 50px;
+    border:2px solid black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    transform: translate(0px);
+    transition: 0.35s;
+  }
+  
+  .pagination div span{
+    font-size: 20px;
+  }
+  
+  .pagination div:hover {
+    /* background-color: gray; */
+    box-shadow:inset 5px 5px 5px rgba(29, 0, 55, 0.4) ;
+    transform: translate(-10px);
+    transition: 0.35s;
+    background-color: blueviolet;
+    color:white;
+  }

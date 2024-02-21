@@ -1,0 +1,46 @@
+body{
+    margin: 100px;
+}
+
+  /* Animation Examples */
+
+  /* Spinner */
+
+  .maindiv{
+    height: 300px;
+    width: 300px;
+    background-color:#fff;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 1;
+  }
+
+  @keyframes scale {
+    0%
+    {
+        transform: scale(-0.5);
+        border-radius: 10%;
+        background-color: purple;
+
+    }
+    50%
+    {
+        transform: scale(-0.3);
+        border-radius: 30%;
+        background-color:pink;
+
+    }
+    100%
+    {
+        transform: scale(-0.1);
+        border-radius: 50%;
+        background-color: red;
+
+    }
+  }
+  
+ 
+  

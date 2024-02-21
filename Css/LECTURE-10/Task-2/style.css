@@ -1,0 +1,41 @@
+body{
+    margin: 100px;
+}
+
+  /* Animation Examples */
+
+  /* Spinner */
+
+  .maindiv{
+    height: 200px;
+    width: 200px;
+    background-color:purple;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+  }
+
+  @keyframes scale {
+    0%
+    {
+        transform: translateX(0px);
+
+    }
+    50%
+    {
+        transform: translateX(500px);
+        border: 20px solid rgb(115, 115, 218)
+    }
+    100%
+    {
+        transform:translateX(1000px);
+
+    }
+
+}
+  
+
+ 
+  

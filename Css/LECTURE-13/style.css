@@ -1,0 +1,95 @@
+/* Css Grid */
+
+/* .maindiv{
+    width: 80%;
+    height: 600px;
+    background-color: gray;
+    border:2px solid black;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px 50px;
+    column-gap: 0px;
+    row-gap: 50px;
+
+  }
+  
+  .maindiv .div-1{
+    width: 60px;
+    height: 60px;
+    border:2px solid orangered;
+    font-size: 50px;
+  }
+  
+  .maindiv .div-1:nth-child(1){
+    column-span: 2;
+  }
+   */
+  
+  /* Css Mask */
+  
+  
+    /* .mask1 {
+    -webkit-mask-image: url(w3school.png);
+    mask-image: url(w3school.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;   
+    width: 100%;
+  }  */
+  
+  /* Css Tooltip */
+  
+  .tooltip{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tooltip a{
+  text-decoration: underline dotted;
+  color:black;
+  text-underline-offset: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  }
+
+    .massage{
+    width:fit-content;
+    background-color: black;
+    color:white;
+    padding:30px;
+    font-weight: bold;
+    display: none;
+    position: absolute;
+    top:235px;
+    left: 0;
+    right: 0;
+    margin: auto; 
+    border-radius: 10px;
+  } 
+  
+  /* On hover */
+  
+  .tooltip a:hover .massage{
+    display: block;
+  } 
+  
+  /* On click */
+  
+  /* .tooltip a:focus .massage{
+    display: block;
+  } */
+  
+  .square{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    position: absolute;
+    left: inherit;
+    right: inherit;
+    bottom: -18px;
+    margin: auto;
+    transform: rotate(45deg);
+    transition: all 1s ease-in-out; 
+  } 

@@ -5,7 +5,7 @@
     --bg-color:skyblue;
 }
 
-.box{
+/* .box{
     margin: 50px 0 0 50px;
     width: 500px;
     max-width: 1000px;
@@ -13,7 +13,7 @@
     height: 250px;
     background-color:var(--bg-color);
     border:2px solid black;
-}
+} */
 
 /* img{
     /* width: 100vh; */
@@ -33,12 +33,13 @@
     list-style-image
 */
 
-/* ol{
-    /* list-style-type:decimal; */
-    /* list-style-position: inside; */
-    /* list-style-image: url('../image/car.png'); 
+ol{
+    list-style-type:square;
+    list-style-position:outside; 
+    padding: 10px;
+    /* list-style-image: url('/Reactjs-Rudra/Css/LECTURE-5/Task-Shadow/footpath-beautiful-arch-flowers-plants.jpg'); */
 }
-*/
+
 
 
 
@@ -56,14 +57,14 @@
     width: 200px;
     border:2px solid black;
     margin: 50px;
-    box-shadow: inset -10px -10px 20px gray , 20px 20px 5px red;
+    box-shadow: 10px 10px 10px gray , 20px 20px 5px red;
 }  */
 
 
 
 /* accent-color*/
-/* 
-input
+
+/* input
 {
     accent-color: green;
 } */
@@ -81,23 +82,24 @@ input
     ::marker
 
 */
-/* 
-::placeholder
+
+/* ::placeholder
 {
     color:lightcoral;
     text-align: center;
 } */
 
-/* 
-input:checked
+
+/* input:checked
 {
-    color: black;
+    border: 2px solid black;
 } */
 
 /* .text:focus
 {
     color: green;
 } */
+
 /* 
 input:required
 {
@@ -110,8 +112,8 @@ input:required
 input:valid{
     border:3px solid green;
 } */
-
-/* ol li::marker{
+/* 
+ol li::marker{
     color:blue;
 }
 ul li::marker{

@@ -1,0 +1,19 @@
+@media (max-width:768px){
+    .responsive{
+      background-color: blue;
+    }
+  }
+  
+  @media (max-width:576px){
+    .responsive{
+      background-color: yellow; 
+    }
+  }
+
+  
+  @media (max-width: 320px){
+    .responsive{
+      background-color: red;
+    }
+  }
+  

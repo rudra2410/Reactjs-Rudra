@@ -67,7 +67,7 @@
         text-decoration: none;
     }
 
-    h1:nth-last-of-type(1)
+     h1:nth-last-of-type(1)
     {
         color: red;
         background-color: yellow;
@@ -80,6 +80,14 @@
         background-color: yellow;
         text-decoration: none;
     }
+
+    div:nth-of-type(2) h1:nth-child(2)
+    {
+        color: red;
+        background-color: yellow;
+        text-decoration: none;
+    }
+
 
     
 

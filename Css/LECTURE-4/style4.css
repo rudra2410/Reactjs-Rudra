@@ -28,15 +28,13 @@ body{
 
 */
 
-/* .para-1 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-style:normal;
-    font-variant: normal;
-    font-weight: lighter;
-    line-height: 45px; 
+.para-1 p {
+    /* font-size: 200px; */
+    /* font-style: oblique; */
+    /* font-variant:normal; */
+    /* font-weight: 900; */
+    /* line-height: 35px; */
 }
-*/
 
 /*css text-properties */
 
@@ -54,15 +52,17 @@ body{
 
 
 .para-2 p{
-   /* color: red;
-   text-align:justify;
-   text-decoration:none;
-   text-transform:capitalize;
-   text-indent: 50px;
-   letter-spacing: 1.5px;
-   word-spacing: 1px;
-   direction:ltr;
-   text-shadow:2px 2px green; */
+    /* background-color: red; */
+    /* color:transparent; */
+    /* text-align: justify; */
+    /* text-decoration:wavy underline red; */
+    /* text-transform: lowercase; */
+    /* text-indent: 200px; */
+    /* letter-spacing: 50px; */
+    /* word-spacing: 100px; */
+    /* direction: rtl; */
+    /* unicode-bidi: bidi-override; */
+    /* text-shadow:-10px 10px 10px gray; */
 }
 
 
@@ -71,11 +71,27 @@ body{
 /* css verticle alignment */
 
 
+/* p{
+    width: 100%;
+    font-size: 45px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+    
+img{
+    vertical-align:center;
+}  */
+
+
 
 /* css white space */
 
-
-
-
+ /* p{
+    white-space:wrap;
+}  */
 
 /* css visibility */
+
+/* p{
+    visibility:visible;
+} */

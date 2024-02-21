@@ -48,12 +48,13 @@ input[type="radio"]:checked {
     color: red;
 } */
 
+
+
 h1:first-child
 {
-    background-color: skyblue;
+    background-color:skyblue;
     border-radius: var(--border-radius);
     /* box-shadow: 2px 2px 15px skyblue; */
-    
 }
 
 h1:first-of-type
@@ -66,7 +67,7 @@ h1:last-child
 {
     background-color: green;
     border-radius: var(--border-radius);
-    /* box-shadow: 4px 4px 20px  green; */
+    box-shadow: 4px 4px 20px  green; 
 
 }
 
@@ -95,7 +96,6 @@ h1:nth-last-of-type(3)
 }
 
 h1:nth-of-type(5)
-
 {
     border-radius: var(--border-radius);
     background-color: rgb(0, 255, 17);
@@ -106,7 +106,7 @@ h1:only-child
 {
     border-radius: var(--border-radius);
     background-color: chocolate;
-}
+} 
 
 
 
